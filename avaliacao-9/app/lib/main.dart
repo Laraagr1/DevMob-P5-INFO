@@ -58,11 +58,11 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Fetch Data Example',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Fetch Data Example'),
+          title: const Text('Fetch Data Example - Maria Lara Silva de Agrela'),
         ),
         body: Center(
           child: FutureBuilder<Album>(
